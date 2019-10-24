@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+*:before,
+*:after {
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	overflow-x: hidden;
+	font-family: 'Muli', sans-serif;
+	color: #505962;
+}
+
+/*--- Navigation --*/
+.navbar{
+	text-transform: uppercase;
+	font-weight:700;
+	font-size:.9rem;
+	letter-spacing: .1rem;
+		background: rgba(0,0,0,0.8)!important;
+}
+.navbar-brand img {
+	height:3rem;
+}
+.navbar-nav li{
+	padding-right: .7rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+	color: white;
+	padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: #1ebba3;
+}
+
+/*--- Landing Page ---*/
+.home-inner{
+	background-image: url(img/main.jpg);
+}
+.caption{
+	width: 100%;
+	max-width: 100%;
+	position: absolute;
+	top:45%;
+	z-index: 1;
+	color:white;
+	text-transform: uppercase;
+}
+.caption h1 {
+	font-size: 3.8rem;
+	font-weight: 900;
+	letter-spacing: .3rem;
+	text-shadow: .1rem .1rem .8rem black;
+	padding-bottom: 1rem;
+}
+.caption h3{
+	font-size:2rem;
+	font-weight: 700;
+	text-shadow: .1rem .1rem .5rem black;
+	padding-bottom: 1.6rem
+}
+
+
+/*---Home--*/
+.home-logo{
+	height:18rem;
+}
+
+#home h1{
+	font-size: 4rem;
+	font-weight: 900;
+	letter-spacing: 0.1rem;
+	padding-bottom: 1rem;
+	padding-top: 2rem;
+	color: black;
+}
+
+#home{
+	padding: 80px 0 60px 0;
+	text-align: center;
+}
+
+#home p{
+	font-size: 40px;
+	color: #000;
+	padding-bottom: 2rem;
+}
+
+#home p.customer{
+  font-size:33px;
+  color:#666;
+}
+
+
+/*---App-Entwicklung--*/
+#app{
+	background:#000000;
+	padding: 80px 0 60px 0;
+}
+
+#app h2.logo-text{
+	text-align: center;
+	margin-top: 45px;
+	font-weight: bold;
+	color: white;
+}
+
+#app p.app-text1{
+	color: white;
+	font-size: 20px;
+}
+
+.icons img{
+	padding: 15px 0 15px 0;
+	height: 6.2rem;
+}
+
+.app-bild {
+	height: 35rem;
+}
+
+.app-überschrift{
+		font-size: 50px;
+		margin-bottom: 20px;
+		font-weight: 900;
+		margin-left: 60px;
+		color: white;
+}
+
+#app .heading-underline{
+	width: 7rem;
+	height: .2rem;
+	background-color: #1ebba3;
+	margin:0 auto 2rem ;
+}
+
+/*--App2-Entwicklung--*/
+.app-text3{
+	text-align: center;
+	color: #000;
+	padding: 50px 0 30px 0;
+	margin-bottom: 1.7rem;
+	margin-top: 1.2rem;
+}
+
+/*--App3-Entwicklung--*/
+#app3{
+ background:#000000;
+ padding-top: 4rem;
+ padding-bottom: 3rem;
+}
+
+.android img{
+	 margin-bottom: 1.5rem;
+	 margin-left: 11rem;
+}
+
+.ios img{
+	margin-bottom: 1.5rem;
+	margin-left: 11rem;
+}
+
+.android{
+	color: white;
+	font-size: 22px;
+	padding-right: 15px;
+}
+
+.ios{
+	color:white;
+	font-size: 22px;
+	padding-left: 15px;
+}
+
+.trenner{
+	height: 5px;
+	background-color: #1ebba3;
+}
+/*--Web-Entwicklung--*/
+
+#web{
+	padding: 80px 0 60px 0;
+}
+
+.web-überschrift{
+	margin-top: 6rem;
+	font-size: 50px;
+	margin-bottom: 20px;
+	font-weight: 900;
+	margin-right: 60px;
+	color: black;
+}
+
+#web .heading-underline{
+	width: 10rem;
+	height: .2rem;
+	background-color: #1ebba3;
+	margin:0 125px 1rem ;
+}
+
+.web-text{
+	font-size: 20px;
+	text-align: auto;
+	color: black;
+	margin-right: 120px;
+
+}
+
+.web-bild {
+	height: 40rem;
+	margin-top: 6rem;
+	margin-left: 2rem;
+}
+
+.arrow{
+	size: 100px;
+  color:  #1ebba3;
+}
+
+.arrow:hover{
+	color: black;
+}
+
+/*--Web 2 Entwicklung--*/
+
+#web2{
+	background-color: black;
+	padding: 80px 0 60px 0;
+}
+
+
+.web2-bild {
+	height: 40rem;
+}
+
+.web2-text{
+	font-size: 20px;
+	color: white;
+	position: center;
+}
+
+.web2-überschrift{
+	color:white;
+	font-size: 50px;
+	text-align: center;
+	padding-right: 1.8rem;
+
+}
+
+#web2 .heading-underline{
+	width: 12rem;
+	height: .2rem;
+	background-color: #1ebba3;
+	margin: auto;
+	margin-bottom: 2rem; 
+}
+
+
+footer{
+	font-size: 15px;
+	text-align: center;
+	color: #000;
+}
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
